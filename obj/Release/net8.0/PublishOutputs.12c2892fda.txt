@@ -1,0 +1,11 @@
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/All-For-One-Project-API
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/appsettings.json
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/All-For-One-Project-API.dll
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/All-For-One-Project-API.deps.json
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/All-For-One-Project-API.runtimeconfig.json
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/All-For-One-Project-API.pdb
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

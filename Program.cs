@@ -18,6 +18,14 @@ builder.Services.AddScoped<OddOrEvenServices>();
 builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<Magic8BallServices>();
 builder.Services.AddScoped<RestaurantPickerServices>();
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAll",
+    policy => {
+        policy.AllowAnyOrigin() // Allows requests from any origin
+            .AllowAnyMethod() // Allows any Http Request (GET, POST, PUT, etc...)
+            .AllowAnyHeader(); // Allows any headers
+    });
+});
 
 var app = builder.Build();
 
@@ -29,6 +37,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

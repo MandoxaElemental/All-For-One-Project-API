@@ -16,6 +16,7 @@
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.csproj.CoreCompileInputs.cache
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.MvcApplicationPartsAssemblyInfo.cs
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.MvcApplicationPartsAssemblyInfo.cache
+/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.sourcelink.json
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/staticwebassets.build.json
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/staticwebassets.development.json
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/staticwebassets/msbuild.All-For-One-Project-API.Microsoft.AspNetCore.StaticWebAssets.props
@@ -30,4 +31,3 @@
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.pdb
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.genruntimeconfig.cache
 /Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/ref/All-For-One-Project-API.dll
-/Users/users/Documents/CodeStack/Level 2/Week 3/All-For-One-Project-API/obj/Debug/net8.0/All-For-One-Project-API.sourcelink.json
