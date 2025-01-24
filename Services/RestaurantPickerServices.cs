@@ -32,30 +32,30 @@ namespace All_For_One_Project_API.Services
         {
             
             int ourRandomNumber = rng.Next(other.Length);
-            string foodChoice = yourChoice.ToUpper();
+            string foodChoice = yourChoice.ToLower();
             switch (foodChoice)
             {
-                case "FRENCH":
+                case "french":
                 resultList = french[ourRandomNumber];
                 break;
 
-                case "BURGER":
+                case "burger":
                 resultList = burgers[ourRandomNumber];
                 break;
                 
-                case "TACOS":
+                case "tacos":
                 resultList = tacos[ourRandomNumber];
                 break;
 
-                case "CHICKEN":
+                case "chicken":
                 resultList = chicken[ourRandomNumber];
                 break;
 
-                case "PIZZA":
+                case "pizza":
                 resultList = pizza[ourRandomNumber];
                 break;
 
-                case "OTHER":
+                case "other":
                 resultList = other[ourRandomNumber];
                 break;
 

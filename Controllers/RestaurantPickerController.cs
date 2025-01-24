@@ -17,7 +17,7 @@ namespace All_For_One_Project_API.Controllers
         }
 
         [HttpGet]
-        [Route("RestauruantPicker/{yourChoice}")]
+        [Route("RestaurantPicker/{yourChoice}")]
         public string RestauruntPickerOutput(string yourChoice){
             return _restauruantPickerServices.yourFood(yourChoice);
         }

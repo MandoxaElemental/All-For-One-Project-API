@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/All-For-One-Project-API.props" />
-</Project>
