@@ -16,7 +16,7 @@ namespace All_For_One_Project_API.Controllers
             _madLibServices = madLibServices;
         }
         [HttpGet]
-        [Route("MadLib{color}/{pluralNoun1}/{place}/{verb1}/{verb2}/{noun1}/{adjective1}/{pluralObject}/{noun2}/{verb3}/{pluralNoun2}/{adjective2}/{pluralNoun3}/{adverb1}/{verb4}/{adverb2}")]
+        [Route("MadLib/{color}/{pluralNoun1}/place}/{verb1}/{verb2}/{noun1}/{adjective1}/{pluralObject}/{noun2}/{verb3}/{pluralNoun2}/{adjective2}/{pluralNoun3}/{adverb1}/{verb4}/{adverb2}")]
          public string YourMadLib(string color ,
         string pluralNoun1 ,
         string place ,
