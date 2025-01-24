@@ -8,6 +8,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<AddTwoNumbersServices>();
+builder.Services.AddScoped<AskingQuestionsServices>();
+builder.Services.AddScoped<GreaterThanServices>();
+builder.Services.AddScoped<MadLibServices>();
+builder.Services.AddScoped<ReverseItAlphanumericalServices>();
+builder.Services.AddScoped<ReverseItNumericalServices>();
+builder.Services.AddScoped<OddOrEvenServices>();
 builder.Services.AddScoped<SayHelloServices>();
 builder.Services.AddScoped<Magic8BallServices>();
 builder.Services.AddScoped<RestaurantPickerServices>();
