@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace All_For_One_Project_API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class MadLibController : ControllerBase
     {
         
