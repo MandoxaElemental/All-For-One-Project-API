@@ -17,7 +17,7 @@ namespace All_For_One_Project_API.Services
             "Hurrururururu!", 
             "Heh dum dummad",
             "Buh, budda, bah!",
-            "(laughs) Hef huv there, huh!",
+            "Hef huv there, huh!",
             "Mhnk nhya mhph."};
         public string YourQuestion(string userInput)
         {
