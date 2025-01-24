@@ -15,7 +15,7 @@ namespace All_For_One_Project_API.Controllers
         public Magic8BallController(Magic8BallServices magic8BallServices){
             _magic8BallServices = magic8BallServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("Magic8Ball")]
         public string Magic8BallResponse(string userInput){
             return _magic8BallServices.YourQuestion(userInput);

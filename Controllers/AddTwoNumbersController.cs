@@ -15,7 +15,7 @@ namespace All_For_One_Project_API.Controllers
         public AddTwoNumbersController(AddTwoNumbersServices addTwoNumbersServices){
             _addTwoNumbersServices = addTwoNumbersServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("AddTwoNumbers/{numberOne}/{numberTwo}")]
         public string AddTwoNumbersFunction(string numberOne, string numberTwo){
             return _addTwoNumbersServices.AddNumbers(numberOne, numberTwo);

@@ -16,7 +16,7 @@ namespace All_For_One_Project_API.Controllers
             _sayHelloServices = sayHelloServices;
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("HelloWorld/{name}")]
         public string YourName(string name){
             return _sayHelloServices.AddNameToList(name);

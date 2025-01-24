@@ -15,7 +15,7 @@ namespace All_For_One_Project_API.Controllers
         public GreaterThanController(GreaterThanServices greaterThanServices){
             _greaterThanServices = greaterThanServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("GreaterThan/{firstNum}/{secondNum}")]
         public string UpdateComparison(string firstNum, string secondNum){
             return _greaterThanServices.UpdateComparison(firstNum, secondNum);

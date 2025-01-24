@@ -17,12 +17,12 @@ namespace All_For_One_Project_API.Controllers
             _reverseItAlphaNumericalServices = reverseItAlphaNumericalServices;
             _reverseItNumbericalServices = reverseItNumbericalServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("ReversedWord/{userInput}")]
          public string ReversedWord(string userInput){
             return _reverseItAlphaNumericalServices.ReversedString(userInput);
          }
-         [HttpPost]
+         [HttpGet]
         [Route("ReversedNum/{userInput}")]
          public string ReversedNum(string userInput){
             return _reverseItNumbericalServices.ReversedNum(userInput);

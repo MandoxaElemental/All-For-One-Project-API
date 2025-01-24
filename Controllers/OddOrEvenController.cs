@@ -15,7 +15,7 @@ namespace All_For_One_Project_API.Controllers
         public OddOrEvenController(OddOrEvenServices oddOrEvenServices){
             _oddOrEvenServices = oddOrEvenServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("OddorEven/{num}")]
         public string EvenOrOdd(string num){
         return _oddOrEvenServices.EvenOrOdd(num);

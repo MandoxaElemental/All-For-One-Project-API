@@ -15,7 +15,7 @@ namespace All_For_One_Project_API.Controllers
         public AskingQuestionsController(AskingQuestionsServices askingQuestionsServices){
             _askingQuestionsServices = askingQuestionsServices;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("AskingQuestions/{name}/{time}")]
         public string Question(string name, string time){
             return _askingQuestionsServices.FinalQuestion(name, time);
